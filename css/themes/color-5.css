@@ -1,0 +1,189 @@
+
+/* ==========================================================================
+   Theme Name: Konefix / COLOR 5
+   Theme URI: http://www.pankogut.com/themes/html/konefix
+   Author: PanKogut
+   Author URI: http://www.pankogut.com
+   Description: Konefix is a responsive portoflio theme for creative with minimal design, flexible grid layout.
+
+   Version: 1.0.0
+   License: GNU General Public License v2 or later
+   License URI: http://www.gnu.org/licenses/gpl-2.0.html
+   Tags: grey, right-sidebar, flexible-width, featured-images, bootstrap
+   Text Domain: konefix
+   ========================================================================== */
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+    background-color: #95a5a6;
+}
+
+a {
+    color: #7f8c8d;
+}
+
+a:hover {
+    color: #51595A;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.btn-default {
+background-color: #95a5a6;
+}
+
+.btn-default:hover {
+background-color: #7f8c8d;
+}
+
+.btn-default:focus,
+.btn-default:active {
+background-color: #7f8c8d;
+}
+
+.btn-primary {
+background-color: #7f8c8d;
+border-color: #7f8c8d;
+}
+
+.btn-primary:hover {
+background-color: #7f8c8d;
+border-color: #7f8c8d;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary {
+background-color: #7f8c8d;
+border-color: #7f8c8d;
+}
+
+/* ==========================================================================
+   Menu
+   ========================================================================== */
+
+.k-menu ul:first-of-type li a:hover,
+.k-menu ul:first-of-type li a:focus,
+.k-menu ul li a:hover:before,
+.k-menu ul li a:focus:before {
+	color: #95a5a6;
+}
+
+/* ==========================================================================
+   Home Page
+   ========================================================================== */
+
+#home .wrap {
+	background-color: rgb(149, 165, 166);
+	background-color: rgba(149, 165, 166,0.8);
+}
+
+ /* ==========================================================================
+   About Page
+   ========================================================================== */
+
+#about img {
+	border: 10px solid #7f8c8d;
+}
+
+ /* ==========================================================================
+   Portfolio Page
+   ========================================================================== */
+
+.caption::before,
+.caption::after {
+	background: #7f8c8d;
+}
+
+.caption::before {
+	color: #51595A;
+}
+
+.label-default {
+background-color: #7f8c8d;
+}
+
+ /* ==========================================================================
+   Blog Page
+   ========================================================================== */
+
+/* Main */
+
+.meta-tag {
+	background-color: #51595A;
+}
+
+/* Sidebar */
+
+#sidebar {
+	border-left: 1px dashed #7f8c8d;
+}
+
+.widget-title {
+	background-color: #51595A;
+}
+
+/* Pagination */
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #7f8c8d;
+	border-color: #7f8c8d;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	background-color: #7f8c8d;
+	border-color: #7f8c8d;
+}
+
+ /* ==========================================================================
+   Blog Single Page
+   ========================================================================== */
+
+.comment-title {
+	border-bottom: 2px solid #7f8c8d;
+}
+
+ /* ==========================================================================
+   Components
+   ========================================================================== */
+
+/* Dropdown Menu */
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #fff;
+background-color: #7f8c8d;
+}
+
+/* Tabs */
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+background-color: #7f8c8d;
+border-bottom-color: #7f8c8d;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+border-bottom-color: #7f8c8d;
+}
+
+.tab-content {
+background-color: #7f8c8d;
+border-bottom-color: #7f8c8d;
+}
+
+/* Badge */
+
+.badge {
+color: #fff;
+background-color: #95a5a6;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+background-color: #7f8c8d;
+}

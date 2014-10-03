@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <title>Zeitgeist | Treasure Hunt</title>    
+    <meta name="description" content="">
+    <meta name="author" content="Pasquale" >
+
+    <!-- Stylesheet -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <style>
+        body  {
+        padding-top: 40px;
+        }
+    </style>
+    
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
+    
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body id="home">
+
+    <div class="wrap">
+        <div class="container-fluid">
+            <!-- Nav Menu -->
+            <nav id="k-menu" class="k-menu">
+                <a href="#" class="k-menu-trigger"><span>Menu</span></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="zhunt.php">Hunt</a></li>
+                    <li><a href="leaderboard.php">Leaderboard</a></li>
+                    <li><a href="https://apps.facebook.com/forumforpages/page/631168673648008" target = "_blank">Forum</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                   <!-- <li><a href="contact.html">Developers</a></li>-->
+                </ul>
+                <ul>
+                    
+                    <li><a href="http://www.facebook.com/zeitgeist.iitrpr" class="fa fa-facebook">Facebook</a></li>
+                    
+                </ul>
+            </nav><!-- /Nav Menu -->
+            <!-- Switcher Color -->
+           <!-- <div id="switcher" class="switcher">
+                <div class="switcher-content">
+                    <h2>Choose<br> color style</h2>
+                    <ul class="color color-thumbs">
+                      <li class="color-1"></li>
+                      <li class="color-2"></li>
+                      <li class="color-3"></li>
+                      <li class="color-4"></li>
+                      <li class="color-5"></li>
+                    </ul>
+                </div>
+                <a href="" class="switcher-btn"><i class="fa fa-cogs fa-3x"></i></a>
+            </div>--><!-- /Switcher Color -->
+            <!-- Welcome -->
+            <div class="row text-center animated bounceIn">
+                <div class="col-md-12">
+                    <img style="margin-top: 10px;margin-bottom: 10px;height:100px;width:100px;" src="images/z.png">
+                    <h1>Zeitgiest welcomes you!</h1>
+                    <h2 style="margin-bottom:5px;">Treasure Hunt!</h2>
+                    <center>
+                        <div 
+                          class="fb-login-button" 
+                          data-max-rows="2" 
+                          data-size="medium" 
+                          data-show-faces="true" 
+                          scope="public_profile,email,user_friends,publish_actions" 
+                          onlogin="checkLoginState();">
+                        </div>
+                        <div id="status">
+                        </div>
+                         
+                        <button onclick="logout();" 
+                            id="logout-btn"
+                            style="display:none;margin-top: 10px;margin-bottom: 10px;background-color: #fff;color: #1abc9c;">Logout
+                        </button>
+                    </center>
+                                <!--
+                                     <form action="service.php" method="GET">
+                                        <input  type="text" name="username" placeholder="Your Name..."></input>
+                                        
+                                        <input type="submit" name="submit" value="SUBMIT">
+                                    </form>
+                                -->
+                </div>
+            </div><!-- /Welcome -->
+          <footer class="text-right animated bounceIn">
+           </footer>
+        </div><!-- /.container -->
+    </div><!-- /.wrap -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/borderMenu.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src = "js/facebook-connect.js"></script>
+
+    <!-- Google Analytics -->
+    <script></script>
+</body>
+
+</html>
